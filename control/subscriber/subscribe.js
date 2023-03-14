@@ -1,6 +1,5 @@
 const subscribeModel = require("../../model/subscribe");
 
-const SUBSCRIBER = new subscribeModel();
 
 const newSubscriber = async (req, res) => {
   const subscriberData = new subscribeModel(req.body);
